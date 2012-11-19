@@ -1,0 +1,90 @@
+body {
+	font-family: "Lucida Grande";
+	background-image: url("old_mathematics.png");
+	margin: 20px;
+	-webkit-user-select: none;
+}
+h1 {
+	color: #1E4152;
+	font-size: 28px;
+}
+h2 {
+	color: #1E4152;
+	font-size: 16px;
+}
+p {
+	font-size: 13px;
+	line-height: 1.4em;
+}
+div.center {
+	margin-top: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 520px;
+}
+div.clear {
+	clear: both;
+}
+div.center p {
+	font-size: 14px;
+}
+img.left {
+	float: left;
+	margin-top: 2px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.shadow {
+	-webkit-box-shadow: rgba(0,0,0,0.6) 0 1px 5px;
+}
+a.button {
+	background-color: #DADFE2;
+	border: 1px solid #B3B3B3;
+	padding: 4px 8px;
+	display: block;
+	color: #1E4152;
+	font-size: 14px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 14px;
+	-webkit-border-radius: 6px;
+}
+a.button.right {
+	right: 14px;
+}
+a.button.left {
+	left: 14px;
+}
+a.button:hover {
+	background-color: #E5E9EF;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	img#icon {
+		content: url("Pixen128_2x.png");
+	}
+	img#layers {
+		content: url("Layers_2x.png");
+	}
+	img#animation {
+		content: url("Animation_2x.png");
+	}
+	img#palette {
+		content: url("Palette_2x.png");
+	}
+	img#crosshair {
+		content: url("Crosshair_2x.png");
+	}
+	img#patterns {
+		content: url("Patterns_2x.png");
+	}
+	img#properties {
+		content: url("ToolProperties_2x.png");
+	}
+}

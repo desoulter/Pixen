@@ -42,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFAB4BAF165A4E0900F77C6F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C916B65B13D25B7100F30F54 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		C916B65C13D25B7100F30F54 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		C916B65D13D25B7100F30F54 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
@@ -241,6 +242,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = C969A15B13D200B300F1C1FE;
 			productRefGroup = C969A16913D200B300F1C1FE /* Products */;
@@ -292,6 +294,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C916B66D13D25B9700F30F54 /* en */,
+				AFAB4BAF165A4E0900F77C6F /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
