@@ -1,42 +1,42 @@
 /* Background Label */
-"BACKGROUND_LABEL" = "Background";
+"BACKGROUND_LABEL" = "Фон";
 /* Background Tooltip */
-"BACKGROUND_TOOLTIP" = "Open background configurator";
+"BACKGROUND_TOOLTIP" = "Открыть настройки фона";
 
 /* Layers Label */
-"LAYERS_LABEL" = "Layers";
+"LAYERS_LABEL" = "Слои";
 /* Layers Tooltip */
 "LAYERS_TOOLTIP" = "Open and close the layer view drawer";
 
 /* Document Palette Label */
-"DOCUMENT_PALETTE_LABEL" = "Palette";
+"DOCUMENT_PALETTE_LABEL" = "Палитра";
 /* Document Palette Tooltip */
-"DOCUMENT_PALETTE_TOOLTIP" = "Open a palette window for this document";
+"DOCUMENT_PALETTE_TOOLTIP" = "Открыть палитру";
 
 /* Preview Label */
-"PREVIEW_LABEL" = "Preview";
+"PREVIEW_LABEL" = "Предпросмотр";
 /* Preview Tooltip */
-"PREVIEW_TOOLTIP" = "Open and close the preview panel";
+"PREVIEW_TOOLTIP" = "Открыть или закрыть панель предпросмотра";
 
 /* Tool Properties Label */
-"TOOL_PROPERTIES_LABEL" = "Tool Properties";
+"TOOL_PROPERTIES_LABEL" = "Инструменты";
 /* Tool Properties Tooltip */
-"TOOL_PROPERTIES_TOOLTIP" = "Open and close the tool properties panel";
+"TOOL_PROPERTIES_TOOLTIP" = "Открыть или закрыть панель инструментов";
 
 /* Grid Label */
-"GRID_LABEL" = "Grid";
+"GRID_LABEL" = "Сетка";
 /* Grid Tooltip */
-"GRID_TOOLTIP" = "Show the grid settings";
+"GRID_TOOLTIP" = "Показать настройки сетки";
 
 /* Color Bank Label */
-"COLOR_BANK_LABEL" = "Color Bank";
+"COLOR_BANK_LABEL" = "Банк цветов";
 /* Color Bank Tooltip */
-"COLOR_BANK_TOOLTIP" = "Open and close the color bank";
+"COLOR_BANK_TOOLTIP" = "Открыть или закрыть банк цветов";
 
 /* Color Palette Label */
-"COLOR_PALETTE_LABEL" = "Palette";
+"COLOR_PALETTE_LABEL" = "Палитра";
 /* Color Palette Tooltip */
-"COLOR_PALETTE_TOOLTIP" = "Open and close the color palette";
+"COLOR_PALETTE_TOOLTIP" = "Открыть или закрыть палитру";
 
 /* Zoom Fit Label */
 "ZOOM_FIT_LABEL" = "Zoom Fit";
@@ -44,96 +44,96 @@
 "ZOOM_FIT_TOOLTIP" = "Zoom the canvas to fit the window";
 
 /* Zoom Actual Label */
-"ZOOM_ACTUAL_LABEL" = "Actual Size";
+"ZOOM_ACTUAL_LABEL" = "Актуальный размер";
 /* Zoom Actual Tooltip */
 "ZOOM_ACTUAL_TOOLTIP" = "Zoom to the actual size of the image";
 
 /* Scale Label */
-"SCALE_LABEL" = "Scale";
+"SCALE_LABEL" = "Масштаб";
 /* Scale Tooltip */
-"SCALE_TOOLTIP" = "Scale the image";
+"SCALE_TOOLTIP" = "Масштабировать изображение";
 
 /* Resize Label */
-"RESIZE_LABEL" = "Resize";
+"RESIZE_LABEL" = "Размер";
 /* Resize Tooltip */
-"RESIZE_TOOLTIP" = "Resize the canvas";
+"RESIZE_TOOLTIP" = "Размер холста";
 
 /* Zoom Label */
-"ZOOM_LABEL" = "Zoom";
+"ZOOM_LABEL" = "Увеличение";
 /* Zoom Tooltip */
 "ZOOM_TOOLTIP" = "Modify the zoom percentage of the zoom";
 
 /* New Animation prompt title */
-"NEW_ANIMATION" = "New Animation";
+"NEW_ANIMATION" = "Новая анимация";
 /* Animation size prompt */
-"ANIMATION_SIZE_PROMPT" = "Specify the size of the animation.";
+"ANIMATION_SIZE_PROMPT" = "Указать размер анимации.";
 
 /* Backgrounds Save As */
-"BACKGROUNDS_SAVE_AS" = "Save as new configuration…";
+"BACKGROUNDS_SAVE_AS" = "Сохранить как новую конфигурацию…";
 /* Backgrounds Delete */
-"BACKGROUNDS_DELETE" = "Delete current configuration";
+"BACKGROUNDS_DELETE" = "Удалить текущую конфигурацию";
 
 /* Flat Background */
-"FLAT_BACKGROUND" = "Flat Background";
+"FLAT_BACKGROUND" = "Обычный фон";
 /* Image Background */
-"IMAGE_BACKGROUND" = "Image Background";
+"IMAGE_BACKGROUND" = "Изображение";
 /* Checkered Background */
-"CHECKERED_BACKGROUND" = "Checkered Background";
+"CHECKERED_BACKGROUND" = "Шахматный фон";
 /* Slashed Background */
-"SLASHED_BACKGROUND" = "Slashed Background";
+"SLASHED_BACKGROUND" = "Полосатый фон";
 
 /* Palette Save As */
-"PALETTE_SAVE_AS" = "Save as new palette…";
+"PALETTE_SAVE_AS" = "Сохранить как новую палитру…";
 /* Palette Set Default */
-"PALETTE_SET_DEFAULT" = "Set this palette as default";
+"PALETTE_SET_DEFAULT" = "Установить палитру по умолчанию";
 /* Palette Delete */
-"PALETTE_DELETE" = "Delete current palette";
+"PALETTE_DELETE" = "Удалить текущую палитру";
 /* Generated Palette */
-"GENERATED_PALETTE" = "Generated Palette";
+"GENERATED_PALETTE" = "Сгенерированная палитра";
 /* Crayons */
 "CRAYONS" = "Crayons";
 /* Web Safe Colors */
-"WEB_SAFE_COLORS" = "Web Safe Colors";
+"WEB_SAFE_COLORS" = "Web-безопасные цвета";
 /* Grayscale */
-"GRAYSCALE" = "Grayscale";
+"GRAYSCALE" = "Серые тона";
 /* No User Palettes */
 "NO_USER_PALETTES" = "No User Palettes";
 /* New Palette Prompt */
-"NEW_PALETTE_PROMPT" = "Please name the new palette.";
+"NEW_PALETTE_PROMPT" = "Назовите новую палитру.";
 /* Change Palette Color */
-"Change Palette Color" = "Change Palette Color";
+"Change Palette Color" = "Изменить цвет палитры";
 /* Change Palette */
-"Change Palette" = "Change Palette";
+"Change Palette" = "Изменить палитру";
 /* Crash Recovery */
-"CRASH_RECOVERY" = "Crash Recovery";
+"CRASH_RECOVERY" = "Восстановление";
 /* Crash Text */
 "CRASH_TEXT" = "Pixen appears to have crashed with unsaved changes the last time it was run.  The affected files' backups have been opened for you.  If you would like to save them over the original files, you'll have to use \"Save As…\" and overwrite them.";
 
 /* Width */
-"WIDTH" = "Width";
+"WIDTH" = "Ширина";
 /* Height */
-"HEIGHT" = "Height";
+"HEIGHT" = "Высота";
 
 /* Red */
-"RED" = "Red";
+"RED" = "Красный";
 /* Green */
-"GREEN" = "Green";
+"GREEN" = "Зелёный";
 /* Blue */
-"BLUE" = "Blue";
+"BLUE" = "Синий";
 /* Alpha */
-"ALPHA" = "Alpha";
+"ALPHA" = "Альфа";
 
 /* Properties */
-"PROPERTIES" = "Properties";
+"PROPERTIES" = "Свойства";
 /* Left */
-"LEFT" = "Left";
+"LEFT" = "Лево";
 /* Right */
-"RIGHT" = "Right";
+"RIGHT" = "Право";
 
 /* Modify Pattern… */
-"MODIFY_PATTERN" = "Modify Pattern…";
+"MODIFY_PATTERN" = "Изменить палитру…";
 /* Set Pattern… */
-"SET_PATTERN" = "Set Pattern…";
+"SET_PATTERN" = "Установить палитру…";
 
 /* Nearest Neighbor Info */
 "NEAREST_NEIGHBOR_INFO" = "For every pixel in the new image, this algorithm finds the closest pixel in the current image and uses that color. This results in a lossy image if you're not scaling up by a power of two (2x, 4x, 8x, 16x, ...) This algorithm is ideal if you want a larger image that looks identical to the current image.";
@@ -143,67 +143,67 @@
 /* --------------- TOOLS --------------- */
 
 /* Pencil Name */
-"PENCIL_NAME" = "Pencil Tool";
+"PENCIL_NAME" = "Карандаш";
 /* Pencil Action */
-"PENCIL_ACTION" = "Drawing";
+"PENCIL_ACTION" = "Рисование";
 
 /* Line Name */
-"LINE_NAME" = "Line Tool";
+"LINE_NAME" = "Линия";
 /* Line Action */
-"LINE_ACTION" = "Drawing Line";
+"LINE_ACTION" = "Рисование линии";
 
 /* Eraser Name */
-"ERASER_NAME" = "Eraser Tool";
+"ERASER_NAME" = "Ластик";
 /* Eraser Action */
-"ERASER_ACTION" = "Erasure";
+"ERASER_ACTION" = "Стирание";
 
 /* Fill Name */
-"FILL_NAME" = "Fill Tool";
+"FILL_NAME" = "Заливка";
 /* Fill Action */
-"FILL_ACTION" = "Fill";
+"FILL_ACTION" = "Заполнение";
 
 /* Eyedropper Name */
-"EYEDROPPER_NAME" = "Eyedropper Tool";
+"EYEDROPPER_NAME" = "Пипетка";
 /* Eyedropper Action */
 /* This is unimplemented until we get to palette undo */
 
 /* Zoom Name */
-"ZOOM_NAME" = "Zoom Tool";
+"ZOOM_NAME" = "Лупа";
 /* Zoom Action */
 /* No undo for Zoom, so no point in having this */
 
 /* Rectangular Selection Name */
-"RECTANGULARSELECTION_NAME" = "Rectangular Selection Tool";
+"RECTANGULARSELECTION_NAME" = "Прямоугольное выделение";
 /* Rectangular Selection Action */
-"RECTANGULARSELECTION_ACTION" = "Selection";
+"RECTANGULARSELECTION_ACTION" = "Выделение";
 
 /* Selection Move Action */
-"SELECTION_MOVE_ACTION" = "Selection Move";
+"SELECTION_MOVE_ACTION" = "Перемещение выделения";
 
 /* Move Name */
-"MOVE_NAME" = "Move Tool";
+"MOVE_NAME" = "Рука";
 /* Move Action */
-"MOVE_ACTION" = "Move";
+"MOVE_ACTION" = "Перемещение";
 
 /* Rectangle Name */
-"RECTANGLE_NAME" = "Rectangle Tool";
+"RECTANGLE_NAME" = "Прямоугольник";
 /* Rectangle Action */
-"RECTANGLE_ACTION" = "Drawing Rectangle";
+"RECTANGLE_ACTION" = "Рисование прямоугольника";
 
 /* Ellipse Name */
-"ELLIPSE_NAME" = "Ellipse Tool";
+"ELLIPSE_NAME" = "Эллипс";
 /* Ellipse Action */
-"ELLIPSE_ACTION" = "Drawing Ellipse";
+"ELLIPSE_ACTION" = "Рисование эллипса";
 
 /* Magic Wand Name */
-"MAGICWAND_NAME" = "Magic Wand Tool";
+"MAGICWAND_NAME" = "Волшебная палочка";
 /* Magic Wand Action */
-"MAGICWAND_ACTION" = "Selection";
+"MAGICWAND_ACTION" = "Выделение";
 
 /* Lasso Name */
-"LASSO_NAME" = "Lasso Tool";
+"LASSO_NAME" = "Лассо";
 /* Lasso Action */
-"LASSO_ACTION" = "Selection";
+"LASSO_ACTION" = "Выделение";
 
 /* Show Alignment Crosshairs */
 "SHOW_ALIGNMENT_CROSSHAIRS" = "Show Alignment Crosshair";
@@ -231,14 +231,14 @@
 "PICK_DIFFERENT_NAME" = "Would you like to pick a different name for %@?";
 
 /* About */
-"VERSION_STRING" = "Version %@";
+"VERSION_STRING" = "Версия %@";
 
 // new
 
-"ADD_FRAME" = "Add Frame";
+"ADD_FRAME" = "Добавить кадр";
 "HIDE_PREVIOUS_FRAME_OVERLAY" = "Hide Previous Frame Overlay";
 "SHOW_PREVIOUS_FRAME_OVERLAY" = "Show Previous Frame Overlay";
-"COPY_FRAME" = "Copy Frame";
-"CUT_FRAME" = "Cut Frame";
-"DUPLICATE_FRAME" = "Duplicate Frame";
-"DELETE_FRAME" = "Delete Frame";
+"COPY_FRAME" = "Копировать кадр";
+"CUT_FRAME" = "Вырезать кадр";
+"DUPLICATE_FRAME" = "Дублировать кадр";
+"DELETE_FRAME" = "Удалить кадр";
