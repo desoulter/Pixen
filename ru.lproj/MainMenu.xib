@@ -3,12 +3,12 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1070</int>
 		<string key="IBDocument.SystemVersion">12C60</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
 		<string key="IBDocument.AppKitVersion">1187.34</string>
 		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">2840</string>
+			<string key="NS.object.0">2844</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSCustomObject</string>
@@ -56,7 +56,7 @@
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="572411375">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">About Pixen</string>
+									<string key="NSTitle">О программе Pixen</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -75,7 +75,7 @@
 								</object>
 								<object class="NSMenuItem" id="577465453">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Preferences...</string>
+									<string key="NSTitle">Настройки...</string>
 									<string key="NSKeyEquiv">,</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -85,7 +85,7 @@
 								<object class="NSMenuItem" id="486890289">
 									<reference key="NSMenu" ref="520288679"/>
 									<bool key="NSIsHidden">YES</bool>
-									<string key="NSTitle">Check for Updates...</string>
+									<string key="NSTitle">Проверить обновления...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -104,7 +104,7 @@
 								</object>
 								<object class="NSMenuItem" id="101811607">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Services</string>
+									<string key="NSTitle">Службы</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -112,9 +112,7 @@
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="128981698">
-										<object class="NSMutableString" key="NSTitle">
-											<characters key="NS.bytes">Services</characters>
-										</object>
+										<string key="NSTitle">Службы</string>
 										<array class="NSMutableArray" key="NSMenuItems"/>
 										<string key="NSName">_NSServicesMenu</string>
 									</object>
@@ -132,7 +130,7 @@
 								</object>
 								<object class="NSMenuItem" id="111312630">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Hide Pixen</string>
+									<string key="NSTitle">Скрыть Pixen</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -141,7 +139,7 @@
 								</object>
 								<object class="NSMenuItem" id="846803252">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Hide Others</string>
+									<string key="NSTitle">Скрыть остальные</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -150,7 +148,7 @@
 								</object>
 								<object class="NSMenuItem" id="551280303">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Show All</string>
+									<string key="NSTitle">Показать все</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -170,7 +168,7 @@
 								</object>
 								<object class="NSMenuItem" id="94917071">
 									<reference key="NSMenu" ref="520288679"/>
-									<string key="NSTitle">Quit Pixen</string>
+									<string key="NSTitle">Выйти из Pixen</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -183,7 +181,7 @@
 					</object>
 					<object class="NSMenuItem" id="384838037">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">File</string>
+						<string key="NSTitle">Файл</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -191,11 +189,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="654037141">
-							<string key="NSTitle">File</string>
+							<string key="NSTitle">Файл</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="540629169">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">New Image...</string>
+									<string key="NSTitle">Новое изображение...</string>
 									<string key="NSKeyEquiv">n</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -204,7 +202,7 @@
 								</object>
 								<object class="NSMenuItem" id="423065010">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">New Image from Copy</string>
+									<string key="NSTitle">Новое изображение из копии</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -213,7 +211,7 @@
 								</object>
 								<object class="NSMenuItem" id="182028804">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">New Image from Clipboard</string>
+									<string key="NSTitle">Новое изображение из буфера обмена</string>
 									<string key="NSKeyEquiv">n</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -222,7 +220,7 @@
 								</object>
 								<object class="NSMenuItem" id="616013946">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">New Animation...</string>
+									<string key="NSTitle">Новая анимация...</string>
 									<string key="NSKeyEquiv">N</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -231,7 +229,7 @@
 								</object>
 								<object class="NSMenuItem" id="222208899">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Open...</string>
+									<string key="NSTitle">Открыть...</string>
 									<string key="NSKeyEquiv">o</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -240,7 +238,7 @@
 								</object>
 								<object class="NSMenuItem" id="842018209">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Open Recent</string>
+									<string key="NSTitle">Последние документы</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -248,9 +246,7 @@
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="157859639">
-										<object class="NSMutableString" key="NSTitle">
-											<characters key="NS.bytes">Open Recent</characters>
-										</object>
+										<string key="NSTitle">Последние документы</string>
 										<array class="NSMutableArray" key="NSMenuItems">
 											<object class="NSMenuItem" id="714693588">
 												<reference key="NSMenu" ref="157859639"/>
@@ -278,7 +274,7 @@
 								</object>
 								<object class="NSMenuItem" id="546330524">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Close</string>
+									<string key="NSTitle">Закрыть</string>
 									<string key="NSKeyEquiv">w</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -287,7 +283,7 @@
 								</object>
 								<object class="NSMenuItem" id="126623842">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Save</string>
+									<string key="NSTitle">Сохранить</string>
 									<string key="NSKeyEquiv">s</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -296,7 +292,7 @@
 								</object>
 								<object class="NSMenuItem" id="698485811">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Save As...</string>
+									<string key="NSTitle">Сохранить как...</string>
 									<string key="NSKeyEquiv">S</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -305,7 +301,7 @@
 								</object>
 								<object class="NSMenuItem" id="791375575">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Save a Copy As...</string>
+									<string key="NSTitle">Сохранить копию как...</string>
 									<string key="NSKeyEquiv">S</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -314,7 +310,7 @@
 								</object>
 								<object class="NSMenuItem" id="866279320">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Revert to Saved</string>
+									<string key="NSTitle">Восстановить</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -333,7 +329,7 @@
 								</object>
 								<object class="NSMenuItem" id="950478308">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Page Setup...</string>
+									<string key="NSTitle">Настройка печати...</string>
 									<string key="NSKeyEquiv">P</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -342,7 +338,7 @@
 								</object>
 								<object class="NSMenuItem" id="868297803">
 									<reference key="NSMenu" ref="654037141"/>
-									<string key="NSTitle">Print...</string>
+									<string key="NSTitle">Печать...</string>
 									<string key="NSKeyEquiv">p</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -354,7 +350,7 @@
 					</object>
 					<object class="NSMenuItem" id="993977698">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Edit</string>
+						<string key="NSTitle">Редактирование</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -362,13 +358,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="644071420">
-							<object class="NSMutableString" key="NSTitle">
-								<characters key="NS.bytes">Edit</characters>
-							</object>
+							<string key="NSTitle">Редактирование</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="409896317">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Undo</string>
+									<string key="NSTitle">Отмена</string>
 									<string key="NSKeyEquiv">z</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -377,7 +371,7 @@
 								</object>
 								<object class="NSMenuItem" id="226262716">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Redo</string>
+									<string key="NSTitle">Повторить</string>
 									<string key="NSKeyEquiv">Z</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -397,7 +391,7 @@
 								</object>
 								<object class="NSMenuItem" id="924436463">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Increase Opacity</string>
+									<string key="NSTitle">Увеличить непрозрачность</string>
 									<string key="NSKeyEquiv"></string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -406,7 +400,7 @@
 								</object>
 								<object class="NSMenuItem" id="458402486">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Decrease Opacity</string>
+									<string key="NSTitle">Уменьшить непрозрачность</string>
 									<string key="NSKeyEquiv"></string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -415,7 +409,7 @@
 								</object>
 								<object class="NSMenuItem" id="27874331">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Set Pattern to Selection</string>
+									<string key="NSTitle">Применить паттерн к выделению</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -435,7 +429,7 @@
 								</object>
 								<object class="NSMenuItem" id="129644657">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Fill with Active Color</string>
+									<string key="NSTitle">Залить текущим цветом</string>
 									<string key="NSKeyEquiv">f</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -454,7 +448,7 @@
 								</object>
 								<object class="NSMenuItem" id="804430747">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Cut</string>
+									<string key="NSTitle">Вырезать</string>
 									<string key="NSKeyEquiv">x</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -463,7 +457,7 @@
 								</object>
 								<object class="NSMenuItem" id="1000406921">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Copy</string>
+									<string key="NSTitle">Скопировать</string>
 									<string key="NSKeyEquiv">c</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -472,7 +466,7 @@
 								</object>
 								<object class="NSMenuItem" id="608961187">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Copy Merged</string>
+									<string key="NSTitle">Скопировать совмещенные данные</string>
 									<string key="NSKeyEquiv">c</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -481,7 +475,7 @@
 								</object>
 								<object class="NSMenuItem" id="618338470">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Paste</string>
+									<string key="NSTitle">Вставить</string>
 									<string key="NSKeyEquiv">v</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -490,7 +484,7 @@
 								</object>
 								<object class="NSMenuItem" id="509642811">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Delete</string>
+									<string key="NSTitle">Удалить</string>
 									<string type="base64-UTF8" key="NSKeyEquiv">CA</string>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -498,7 +492,7 @@
 								</object>
 								<object class="NSMenuItem" id="26042845">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Select All</string>
+									<string key="NSTitle">Выделить все</string>
 									<string key="NSKeyEquiv">a</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -507,7 +501,7 @@
 								</object>
 								<object class="NSMenuItem" id="314564495">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Select None</string>
+									<string key="NSTitle">Снять выделение</string>
 									<string key="NSKeyEquiv">d</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -516,7 +510,7 @@
 								</object>
 								<object class="NSMenuItem" id="588029433">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Invert Selection</string>
+									<string key="NSTitle">Инвертировать выделение</string>
 									<string key="NSKeyEquiv">i</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -536,7 +530,7 @@
 								</object>
 								<object class="NSMenuItem" id="10140717">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Crop to Selection</string>
+									<string key="NSTitle">Обрезать выделение</string>
 									<string key="NSKeyEquiv">k</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -545,7 +539,7 @@
 								</object>
 								<object class="NSMenuItem" id="47557233">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Resize Canvas…</string>
+									<string key="NSTitle">Размер холста…</string>
 									<string key="NSKeyEquiv">r</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -554,7 +548,7 @@
 								</object>
 								<object class="NSMenuItem" id="913807839">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Scale Canvas…</string>
+									<string key="NSTitle">Размер изображения…</string>
 									<string key="NSKeyEquiv">s</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -563,7 +557,7 @@
 								</object>
 								<object class="NSMenuItem" id="736307709">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Flip Canvas</string>
+									<string key="NSTitle">Отразить холст</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -571,11 +565,11 @@
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="383019969">
-										<string key="NSTitle">Flip Canvas</string>
+										<string key="NSTitle">Отразить холст</string>
 										<array class="NSMutableArray" key="NSMenuItems">
 											<object class="NSMenuItem" id="1015809283">
 												<reference key="NSMenu" ref="383019969"/>
-												<string key="NSTitle">Horizontally</string>
+												<string key="NSTitle">По горизонтали</string>
 												<string key="NSKeyEquiv">h</string>
 												<int key="NSKeyEquivModMask">1835008</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -584,9 +578,8 @@
 											</object>
 											<object class="NSMenuItem" id="1033779883">
 												<reference key="NSMenu" ref="383019969"/>
-												<string key="NSTitle">Vertically</string>
-												<string key="NSKeyEquiv">v</string>
-												<int key="NSKeyEquivModMask">1835008</int>
+												<string key="NSTitle">По вертикали</string>
+												<string key="NSKeyEquiv">П</string>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="130733852"/>
 												<reference key="NSMixedImage" ref="295545801"/>
@@ -599,7 +592,7 @@
 								</object>
 								<object class="NSMenuItem" id="634434803">
 									<reference key="NSMenu" ref="644071420"/>
-									<string key="NSTitle">Rotate Canvas</string>
+									<string key="NSTitle">Повернуть холст</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -607,11 +600,11 @@
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="98747512">
-										<string key="NSTitle">Rotate Canvas</string>
+										<string key="NSTitle">Повернуть холст</string>
 										<array class="NSMutableArray" key="NSMenuItems">
 											<object class="NSMenuItem" id="459057928">
 												<reference key="NSMenu" ref="98747512"/>
-												<string key="NSTitle">90° Left</string>
+												<string key="NSTitle">90° Против часовой</string>
 												<string key="NSKeyEquiv">[</string>
 												<int key="NSKeyEquivModMask">1835008</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -620,7 +613,7 @@
 											</object>
 											<object class="NSMenuItem" id="716135241">
 												<reference key="NSMenu" ref="98747512"/>
-												<string key="NSTitle">90° Right</string>
+												<string key="NSTitle">90° По часовой</string>
 												<string key="NSKeyEquiv">]</string>
 												<int key="NSKeyEquivModMask">1835008</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -647,7 +640,7 @@
 					</object>
 					<object class="NSMenuItem" id="470442987">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">View</string>
+						<string key="NSTitle">Просмотр</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -655,11 +648,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="522027000">
-							<string key="NSTitle">View</string>
+							<string key="NSTitle">Просмотр</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="120006715">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Background Settings…</string>
+									<string key="NSTitle">Настройки фона…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -678,7 +671,7 @@
 								</object>
 								<object class="NSMenuItem" id="40087432">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Toggle Grid</string>
+									<string key="NSTitle">Сетка</string>
 									<string key="NSKeyEquiv">'</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -687,7 +680,7 @@
 								</object>
 								<object class="NSMenuItem" id="705995523">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Grid Settings...</string>
+									<string key="NSTitle">Настройки сетки...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -707,7 +700,7 @@
 								</object>
 								<object class="NSMenuItem" id="762713317">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Zoom In</string>
+									<string key="NSTitle">Увеличить</string>
 									<string key="NSKeyEquiv">+</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -716,7 +709,7 @@
 								</object>
 								<object class="NSMenuItem" id="346947286">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Zoom Out</string>
+									<string key="NSTitle">Уменьшить</string>
 									<string key="NSKeyEquiv">-</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -725,7 +718,7 @@
 								</object>
 								<object class="NSMenuItem" id="802496209">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Zoom To 100%</string>
+									<string key="NSTitle">Показать во весь экран</string>
 									<string key="NSKeyEquiv">[</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -734,7 +727,7 @@
 								</object>
 								<object class="NSMenuItem" id="277030124">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Zoom To Fit</string>
+									<string key="NSTitle">Актуальный размер</string>
 									<string key="NSKeyEquiv">]</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -774,7 +767,7 @@
 								</object>
 								<object class="NSMenuItem" id="1066000208">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Show Toolbar</string>
+									<string key="NSTitle">Панель инструментов</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -782,7 +775,7 @@
 								</object>
 								<object class="NSMenuItem" id="87173456">
 									<reference key="NSMenu" ref="522027000"/>
-									<string key="NSTitle">Customize Toolbar...</string>
+									<string key="NSTitle">Настроить панель инструментов...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -794,7 +787,7 @@
 					</object>
 					<object class="NSMenuItem" id="644672592">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Layers</string>
+						<string key="NSTitle">Слои</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -802,11 +795,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="77185720">
-							<string key="NSTitle">Layers</string>
+							<string key="NSTitle">Слои</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="36552810">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">New Layer</string>
+									<string key="NSTitle">Новый слой</string>
 									<string key="NSKeyEquiv">N</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -815,7 +808,7 @@
 								</object>
 								<object class="NSMenuItem" id="506419087">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Delete Layer</string>
+									<string key="NSTitle">Удалить слой</string>
 									<string key="NSKeyEquiv">W</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -835,7 +828,7 @@
 								</object>
 								<object class="NSMenuItem" id="524411687">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Cut Layer</string>
+									<string key="NSTitle">Вырезать слой</string>
 									<string key="NSKeyEquiv">X</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -844,7 +837,7 @@
 								</object>
 								<object class="NSMenuItem" id="280831796">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Copy Layer</string>
+									<string key="NSTitle">Копировать слой</string>
 									<string key="NSKeyEquiv">C</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -853,7 +846,7 @@
 								</object>
 								<object class="NSMenuItem" id="910514368">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Paste Layer</string>
+									<string key="NSTitle">Вставить слой</string>
 									<string key="NSKeyEquiv">V</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -862,7 +855,7 @@
 								</object>
 								<object class="NSMenuItem" id="161067250">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Paste Into Active Layer</string>
+									<string key="NSTitle">Вставить в активный слой</string>
 									<string key="NSKeyEquiv">v</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -871,7 +864,7 @@
 								</object>
 								<object class="NSMenuItem" id="864712477">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Duplicate Layer</string>
+									<string key="NSTitle">Дублировать слой</string>
 									<string key="NSKeyEquiv">D</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -891,7 +884,7 @@
 								</object>
 								<object class="NSMenuItem" id="894050817">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Promote Selection to Layer</string>
+									<string key="NSTitle">Создать слой из выделения</string>
 									<string key="NSKeyEquiv">L</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -900,7 +893,7 @@
 								</object>
 								<object class="NSMenuItem" id="586827532">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Merge Down</string>
+									<string key="NSTitle">Объеденить</string>
 									<string key="NSKeyEquiv">M</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -949,7 +942,7 @@
 								</object>
 								<object class="NSMenuItem" id="798659811">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Flip Layer</string>
+									<string key="NSTitle">Отразить слой</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -957,11 +950,11 @@
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="96819494">
-										<string key="NSTitle">Flip Layer</string>
+										<string key="NSTitle">Отразить слой</string>
 										<array class="NSMutableArray" key="NSMenuItems">
 											<object class="NSMenuItem" id="806779935">
 												<reference key="NSMenu" ref="96819494"/>
-												<string key="NSTitle">Horizontally</string>
+												<string key="NSTitle">По горизонтали</string>
 												<string key="NSKeyEquiv">H</string>
 												<int key="NSKeyEquivModMask">1310720</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -970,7 +963,7 @@
 											</object>
 											<object class="NSMenuItem" id="486275817">
 												<reference key="NSMenu" ref="96819494"/>
-												<string key="NSTitle">Vertically</string>
+												<string key="NSTitle">По вертикали</string>
 												<string key="NSKeyEquiv">V</string>
 												<int key="NSKeyEquivModMask">1310720</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -982,19 +975,18 @@
 								</object>
 								<object class="NSMenuItem" id="152103039">
 									<reference key="NSMenu" ref="77185720"/>
-									<string key="NSTitle">Rotate Layer</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSKeyEquivModMask">1048576</int>
+									<string key="NSTitle">Повернуть слой</string>
+									<string key="NSKeyEquiv">П</string>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
 									<reference key="NSMixedImage" ref="295545801"/>
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="846713254">
-										<string key="NSTitle">Rotate Layer</string>
+										<string key="NSTitle">Повернуть слой</string>
 										<array class="NSMutableArray" key="NSMenuItems">
 											<object class="NSMenuItem" id="1063081527">
 												<reference key="NSMenu" ref="846713254"/>
-												<string key="NSTitle">90° Left</string>
+												<string key="NSTitle">90° Против часовой</string>
 												<string key="NSKeyEquiv">{</string>
 												<int key="NSKeyEquivModMask">1179648</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -1003,7 +995,7 @@
 											</object>
 											<object class="NSMenuItem" id="187810314">
 												<reference key="NSMenu" ref="846713254"/>
-												<string key="NSTitle">90° Right</string>
+												<string key="NSTitle">90° По часовой</string>
 												<string key="NSKeyEquiv">}</string>
 												<int key="NSKeyEquivModMask">1179648</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -1027,7 +1019,7 @@
 					</object>
 					<object class="NSMenuItem" id="380451177">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Palette</string>
+						<string key="NSTitle">Палитра</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -1035,11 +1027,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="523469101">
-							<string key="NSTitle">Palette</string>
+							<string key="NSTitle">Палитра</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="126920849">
 									<reference key="NSMenu" ref="523469101"/>
-									<string key="NSTitle">Export Document Palette…</string>
+									<string key="NSTitle">Экспортировать палитру…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1048,7 +1040,7 @@
 								</object>
 								<object class="NSMenuItem" id="489348309">
 									<reference key="NSMenu" ref="523469101"/>
-									<string key="NSTitle">Install Palette...</string>
+									<string key="NSTitle">Установить палитру...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1060,7 +1052,7 @@
 					</object>
 					<object class="NSMenuItem" id="384487212">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Animation</string>
+						<string key="NSTitle">Анимация</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -1068,11 +1060,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="686112092">
-							<string key="NSTitle">Animation</string>
+							<string key="NSTitle">Анимация</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="575938084">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">New Frame</string>
+									<string key="NSTitle">Новый кадр</string>
 									<string key="NSKeyEquiv">N</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1081,7 +1073,7 @@
 								</object>
 								<object class="NSMenuItem" id="809520410">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Delete Frame</string>
+									<string key="NSTitle">Удалить кадр</string>
 									<string key="NSKeyEquiv">W</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1101,7 +1093,7 @@
 								</object>
 								<object class="NSMenuItem" id="293771805">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Copy Frame</string>
+									<string key="NSTitle">Копировать кадр</string>
 									<string key="NSKeyEquiv">C</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1110,7 +1102,7 @@
 								</object>
 								<object class="NSMenuItem" id="836817173">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Cut Frame</string>
+									<string key="NSTitle">Вырезать кадр</string>
 									<string key="NSKeyEquiv">X</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1119,7 +1111,7 @@
 								</object>
 								<object class="NSMenuItem" id="378042696">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Paste Frame</string>
+									<string key="NSTitle">Вставить кадр</string>
 									<string key="NSKeyEquiv">V</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1128,7 +1120,7 @@
 								</object>
 								<object class="NSMenuItem" id="560070500">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Duplicate Frame</string>
+									<string key="NSTitle">Дублировать кадр</string>
 									<string key="NSKeyEquiv">D</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1148,7 +1140,7 @@
 								</object>
 								<object class="NSMenuItem" id="196630483">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Select Previous Frame</string>
+									<string key="NSTitle">Выбрать предыдущий кадр</string>
 									<string key="NSKeyEquiv"></string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1157,7 +1149,7 @@
 								</object>
 								<object class="NSMenuItem" id="795104253">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Select Next Frame</string>
+									<string key="NSTitle">Выбрать следующий кадр</string>
 									<string key="NSKeyEquiv"></string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1186,7 +1178,7 @@
 								</object>
 								<object class="NSMenuItem" id="464253337">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Create Animation from Image</string>
+									<string key="NSTitle">Создать анимацию из изображения</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1195,7 +1187,7 @@
 								</object>
 								<object class="NSMenuItem" id="846956891">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Import Animation from Image Sequence…</string>
+									<string key="NSTitle">Импортировать анимацию из последовательности…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1204,7 +1196,7 @@
 								</object>
 								<object class="NSMenuItem" id="259352720">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Export to Image Sequence…</string>
+									<string key="NSTitle">Экспор в последовательность изображений…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1213,7 +1205,7 @@
 								</object>
 								<object class="NSMenuItem" id="902731992">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Export to Sprite Sheet…</string>
+									<string key="NSTitle">Экспорт в Sprite Sheet…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1222,7 +1214,7 @@
 								</object>
 								<object class="NSMenuItem" id="1019127428">
 									<reference key="NSMenu" ref="686112092"/>
-									<string key="NSTitle">Export to QuickTime Movie…</string>
+									<string key="NSTitle">Экспорт в QuickTime Movie…</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1234,7 +1226,7 @@
 					</object>
 					<object class="NSMenuItem" id="647342068">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Window</string>
+						<string key="NSTitle">Окно</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -1242,13 +1234,11 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="1033765132">
-							<object class="NSMutableString" key="NSTitle">
-								<characters key="NS.bytes">Window</characters>
-							</object>
+							<string key="NSTitle">Окно</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="229475888">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Minimize</string>
+									<string key="NSTitle">Свернуть</string>
 									<string key="NSKeyEquiv">m</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1257,7 +1247,7 @@
 								</object>
 								<object class="NSMenuItem" id="957661468">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Zoom</string>
+									<string key="NSTitle">Масштаб</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="130733852"/>
@@ -1265,7 +1255,7 @@
 								</object>
 								<object class="NSMenuItem" id="971851841">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Enter Full Screen</string>
+									<string key="NSTitle">Перейти в полноэкранный режим</string>
 									<string key="NSKeyEquiv">f</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1285,7 +1275,7 @@
 								</object>
 								<object class="NSMenuItem" id="757158459">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Tool Properties</string>
+									<string key="NSTitle">Свойства инструмента</string>
 									<string key="NSKeyEquiv">t</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1294,7 +1284,7 @@
 								</object>
 								<object class="NSMenuItem" id="1059327666">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Right Tool Properties</string>
+									<string key="NSTitle">Свойства правого инструмента</string>
 									<string key="NSKeyEquiv">T</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1303,7 +1293,7 @@
 								</object>
 								<object class="NSMenuItem" id="134474568">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Info Panel</string>
+									<string key="NSTitle">Панель информации</string>
 									<string key="NSKeyEquiv">i</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1312,7 +1302,7 @@
 								</object>
 								<object class="NSMenuItem" id="417106915">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Preview</string>
+									<string key="NSTitle">Предпросмотр</string>
 									<string key="NSKeyEquiv">p</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1332,7 +1322,7 @@
 								</object>
 								<object class="NSMenuItem" id="303287891">
 									<reference key="NSMenu" ref="1033765132"/>
-									<string key="NSTitle">Bring All to Front</string>
+									<string key="NSTitle">Переместить все на передний план</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -1345,7 +1335,7 @@
 					</object>
 					<object class="NSMenuItem" id="928172864">
 						<reference key="NSMenu" ref="774145205"/>
-						<string key="NSTitle">Help</string>
+						<string key="NSTitle">Справка</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -1353,9 +1343,7 @@
 						<reference key="NSMixedImage" ref="295545801"/>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="726161506">
-							<object class="NSMutableString" key="NSTitle">
-								<characters key="NS.bytes">Help</characters>
-							</object>
+							<string key="NSTitle">Справка</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="259835555">
 									<reference key="NSMenu" ref="726161506"/>
@@ -3822,9 +3810,8 @@
 						<string key="togglePreviewWindow:">id</string>
 						<string key="zoomIn:">id</string>
 						<string key="zoomOut:">id</string>
-						<string key="zoomPercentageChanged:">id</string>
+						<string key="zoomSliderChanged:">id</string>
 						<string key="zoomStandard:">id</string>
-						<string key="zoomStepperStepped:">id</string>
 						<string key="zoomToFit:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
@@ -3996,16 +3983,12 @@
 							<string key="name">zoomOut:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="zoomPercentageChanged:">
-							<string key="name">zoomPercentageChanged:</string>
+						<object class="IBActionInfo" key="zoomSliderChanged:">
+							<string key="name">zoomSliderChanged:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="zoomStandard:">
 							<string key="name">zoomStandard:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="zoomStepperStepped:">
-							<string key="name">zoomStepperStepped:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="zoomToFit:">
@@ -4020,9 +4003,8 @@
 						<string key="paletteSplit">NSView</string>
 						<string key="sidebarSplit">NSView</string>
 						<string key="splitView">NSSplitView</string>
-						<string key="zoomPercentageBox">id</string>
-						<string key="zoomStepper">id</string>
-						<string key="zoomView">NSView</string>
+						<string key="zoomLabel">NSTextField</string>
+						<string key="zoomSlider">NSSlider</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="canvasController">
@@ -4049,17 +4031,13 @@
 							<string key="name">splitView</string>
 							<string key="candidateClassName">NSSplitView</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="zoomPercentageBox">
-							<string key="name">zoomPercentageBox</string>
-							<string key="candidateClassName">id</string>
+						<object class="IBToOneOutletInfo" key="zoomLabel">
+							<string key="name">zoomLabel</string>
+							<string key="candidateClassName">NSTextField</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="zoomStepper">
-							<string key="name">zoomStepper</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="zoomView">
-							<string key="name">zoomView</string>
-							<string key="candidateClassName">NSView</string>
+						<object class="IBToOneOutletInfo" key="zoomSlider">
+							<string key="name">zoomSlider</string>
+							<string key="candidateClassName">NSSlider</string>
 						</object>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
